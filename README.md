@@ -48,11 +48,11 @@ The project was structured with reusable and maintainable components, ensuring s
       - `skipSlice.js` – Slice for skip-related state
       - `index.js` – Exports all slices
     - `store.js` – Redux store configuration
-  - `App.jsx` – Main application component
-  - `index.js` – React entry point
+  - `App.jsx` 
+  - `index.js` 
   - `index.css` – Global styles
-  - `reportWebVitals.js` – App performance tracking
-  - `setupTests.js` – Test setup file
+  - `reportWebVitals.js` 
+  - `setupTests.js`
 
 - `Hero` dynamically renders content cards.
 - `Card.jsx` represents each data item as an individual component.
