@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Waste – UI/UX Redesign with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project involved redesigning the UI/UX of a given web page and developing it using React.  
+The goal was to create a more modern, clean, and user-friendly interface while maintaining full functionality.
 
-## Available Scripts
+## 🎨 UI/UX Approach
 
-In the project directory, you can run:
+- I created **multiple alternative designs** using Figma.
+- The focus was on **usability**, **visual balance**, and **responsive layout**.
+- I implemented one of the designs but included others for optional review.
 
-### `npm start`
+🔗 **Figma Design Link:**  
+[https://www.figma.com/design/oJ3z1cXnDOJMuoAISUAyXe/Untitled?node-id=0-1&t=dtCSmokGxoV21HPY-1](https://www.figma.com/design/oJ3z1cXnDOJMuoAISUAyXe/Untitled?node-id=0-1&t=dtCSmokGxoV21HPY-1)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is deployed on GitHub Pages:  
+🔗 [https://furkan-selcuk.github.io/waste/](https://furkan-selcuk.github.io/waste/)
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ **React** – Component-based frontend architecture
+- 🧠 **Redux** – Global state management for data fetched from API
+- 🌐 **Axios** – Promise-based HTTP client for API requests
+- 🎨 **Tailwind CSS** – Utility-first CSS framework for styling
+- 📦 **Custom Components**: `Header`, `Hero`, `Card`
 
-### `npm run build`
+## 🧩 Application Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project was structured with reusable and maintainable components, ensuring scalability:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `src/`  
+  Main source code folder
+  - `assets/`  
+    Images, icons, or other static media
+  - `components/`  
+    Reusable UI components
+    - `common/`  
+      - `Card.jsx` – Card component used in Hero
+    - `sections/`  
+      - `Header.jsx` – Page header
+      - `Hero.jsx` – Hero section with filterable cards
+  - `store/`  
+    Redux state management
+    - `slices/`  
+      - `skipSlice.js` – Slice for skip-related state
+      - `index.js` – Exports all slices
+    - `store.js` – Redux store configuration
+  - `App.jsx` – Main application component
+  - `index.js` – React entry point
+  - `index.css` – Global styles
+  - `reportWebVitals.js` – App performance tracking
+  - `setupTests.js` – Test setup file
 
-### `npm run eject`
+- `Hero` dynamically renders content cards.
+- `Card.jsx` represents each data item as an individual component.
+- `Redux` manages global state, including fetched API data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application is fully responsive and works smoothly across:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ✅ Mobile
+- ✅ Tablet
+- ✅ Desktop
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The layout adjusts seamlessly to different screen sizes for a consistent user experience.
+## 💡 Additional Designs
+I created multiple versions of the UI in Figma. If the current implementation doesn't match your expectations, you're welcome to review alternative designs through the shared link above.
+I’m happy to provide further support based on your preferences.
 
-## Learn More
+## ✅ Conclusion
+This project was designed and developed entirely by me.
+I structured the codebase for clarity and scalability, used modern tools and libraries, and ensured a smooth, responsive user experience across all devices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the project locally, follow these steps:
 
-### Code Splitting
+```bash
+git clone https://github.com/furkan-selcuk/waste.git
+cd waste
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Thank you for reviewing my work!
